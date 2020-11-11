@@ -1,5 +1,5 @@
 #!/bin/bash
 
-bash ./stop $@
+bash ./stop.sh $@
 docker-compose build $@
-bash ./start $@
+bash ./start.sh $@
